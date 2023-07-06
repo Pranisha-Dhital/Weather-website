@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@1,200&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: linear-gradient(to right, #89a9ff, #b0e1ff, #b2fab2, #ffffb6);
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 35px;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(45deg, #0753ad, #0192c5, #eaea70);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+}
+h2 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 20px;
+    color: #8d2121;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 225px;
+}
+.input-box {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 225px;
+}
+.fa-magnifying-glass {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+}
+.fa-magnifying-glass:hover {
+    background-color: #0056b3;
+}
+.container{
+    padding: 20px 70px;
+    color: #000000;
+}
+.current-info{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.date-container{
+    font-weight: 100;
+
+}
+.date-container .time{
+    font-size: 70px;
+
+}
+.date-container #am-pm{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.date-container .date{
+    font-size: 30px;
+}
+.place-container{
+    text-align: center;
+    justify-content: flex-end;
+
+}
+.place-container .time-zone{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.place-container .country{
+    font-size: 12px;
+    font-weight: 700;
+}
+.current-info .others{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(128, 125, 125,0.3);
+    padding:20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #1d2e44;
+
+
+}
+.future-forecast{
+    padding: 25px;
+    display: flex;
+    color: #0e0e0e;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-y: hidden;
+    float: right;
+
+}
+.future-forecast .today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2)
+}
+.future-forecast .today .current-temp{
+    font-size: 18px;
+    padding-top: 15px;
+}

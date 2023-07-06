@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SKYSCAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SKYSCAN </h1>
+    <h2> Plan your day with confidence</h2>
+    <div class="container">
+
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Discover nature's mood" id="search-box">
+                <button class="fa-solid fa-magnifying-glass"></button>
+            </div>
+            <div class="current-info">
+                <div class="date-container ">
+                    <div class="time" id="time">
+                        12:30<span id="am-pm">pm</span>
+                    </div>
+                    <div class="date" id="date">
+                        Wednesday, 28 June
+                    </div>
+                    <div class="others" id="current weather items">
+                        <div class="weather-items">
+                            <div>Humidity</div>
+                            <div class="humidity"></div>
+                        </div>
+                        <div class="weather-items">
+                            <div>Pressure</div>
+                            <div class="pressure"></div>
+                        </div>
+                        <div class="weather-items">
+                            <div>Wind speed</div>
+                            <div class="wind_speed"></div>
+                    </div>
+        </div>
+    </div>
+                <div class="place-container">
+                    <div class="time-zone" id="time-zone"></div>
+                    <div id="country" class="country"></div>
+                </div>
+        </div>
+
+            <div class="future-forecast">
+                <div class="today" id="current-temp">
+                    <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="others">
+                        <div class="temp">current temperature-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/6b4a2438a2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
